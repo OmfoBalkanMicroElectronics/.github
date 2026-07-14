@@ -71,7 +71,7 @@ Other embedded platforms encountered during research
 OBM will contain many repositories covering different experiments, research, and development efforts. Since it is not practical to list every project here, this section highlights some of our main and most active projects.
 
 ## MagicPIC
-### Maintainer
+### Maintainer(s)
 **Barbaror4**
 **MeteÖnelge**
 
@@ -84,7 +84,7 @@ Project Status: MagicPIC is currently one of our main development focuses, as em
 
 ## STM32F746G-DISCO Zephyr RTOS MP3 Player
 
-### Maintainer
+### Maintainer(s)
 
 **Barbaror4**
 
@@ -104,7 +104,7 @@ Project Status: I am currently focusing my development efforts on the MagicPIC p
 
 
 ## JieLi AC6925 Research & Firmware Development
-### Maintainer
+### Maintainer(s)
 
 **Barbaror4**
 
@@ -144,7 +144,7 @@ The goal is to better understand and document these commonly used but poorly doc
 Project Status: I am currently refining the research and documentation around the JieLi platform. This project will include detailed documentation, examples, and testing resources to make experimentation and prototyping easier. Contributions are always welcome, especially in this area, as community knowledge can greatly help in understanding and preserving these often overlooked embedded platforms.
 
 ## NationalChip / GuoXin Research
-### Maintainer
+### Maintainer(s)
 
 **Barbaror4**
 **MeteÖnelge**

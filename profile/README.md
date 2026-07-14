@@ -172,6 +172,7 @@ Firmware research and preservation
 
 
 Our current research has reached successful communication with GX platforms, including UART handshaking, with further firmware analysis ongoing.
+
 Project Status: We are actively researching NationalChip-based platforms. MeteÖnelge has access to a GX-based STB receiver currently under investigation, while Barbaror4 is researching various STB boards, including hardware based around the AT1511S, which was identified through reverse engineering as a rebranded NationalChip GX6101D platform. Contributions, documentation, and additional hardware information are always welcome, as community research helps preserve and understand these lesser-documented embedded systems.
 
 ## Reverse Engineering & Hardware Research

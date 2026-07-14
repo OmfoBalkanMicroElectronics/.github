@@ -175,6 +175,28 @@ Our current research has reached successful communication with GX platforms, inc
 
 Project Status: We are actively researching NationalChip-based platforms. MeteÖnelge has access to a GX-based STB receiver currently under investigation, while Barbaror4 is researching various STB boards, including hardware based around the AT1511S, which was identified through reverse engineering as a rebranded NationalChip GX6101D platform. Contributions, documentation, and additional hardware information are always welcome, as community research helps preserve and understand these lesser-documented embedded systems.
 
+## HackPROM
+
+### Maintainer
+
+**MeteÖnelge**
+
+**HackPROM** is a hardware research project focused on working with programmable memory devices such as **Flash** and **EEPROM** chips.
+
+The project aims to provide tools, experiments, and documentation for:
+
+- Dumping firmware and data from Flash/EEPROM devices
+- Analyzing and modifying extracted firmware
+- Reverse engineering embedded systems
+- Creating custom payloads and modified firmware images
+- Exploring memory devices used in consumer electronics and embedded hardware
+
+The project uses tools such as the **CH341A programmer** for reading, writing, and experimenting with various memory chips.
+
+**Project Status:** HackPROM focuses on improving the understanding of firmware storage and embedded hardware by making it easier to extract, analyze, and modify data from memory devices. Documentation, experiments, and research results will be added as development progresses.
+
+Contributions, hardware findings, and research results are always welcome.
+
 ## Reverse Engineering & Hardware Research
 
 

@@ -100,7 +100,7 @@ The goal of this project is to create a feature-rich MP3 player featuring:
 
 The repository is currently private while the core architecture and software foundation are being refined.
 
-Project Status: I am currently focusing my development efforts on the MagicPIC platform and other embedded systems research. As a result, this project is temporarily paused. Development will continue once a stable roadmap is established, after which the repository will be made public.
+**Project Status:** This project is currently inactive. I have shifted my primary development efforts toward the **MagicPIC** platform and other embedded systems research. Although there are no active development plans at this time, the project remains open for future continuation if circumstances and interest align.
 
 
 ## JieLi AC6925 Research & Firmware Development

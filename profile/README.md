@@ -46,6 +46,10 @@ Proje, **PIC16F886** temel alınarak geliştirilmekte olup; özel geliştirme ka
 
 **Proje Durumu:** MagicPIC şu anda en önemli geliştirme odaklarımızdan biridir. Gömülü sistemler bizim için en büyük ilgi ve merak alanıdır. Donanım geliştirme, yazılım deneyleri ve kapsamlı dokümantasyon ile projeyi büyütmeyi hedefliyoruz. Katkılar, fikirler ve geri bildirimler her zaman memnuniyetle karşılanmaktadır.
 
+**Projenin Şu Anki Durumu:** MagicPIC projesi aktif geliştirme sürecindedir. **MeteÖnelge**'nin proje ve **HackPROM** projesi için temin ettiği bileşenler kendisine ulaşmıştır. **Barbaror4** ise gerekli bileşenlerin siparişini tamamlamış olup kargo sürecini beklemektedir. Donanımların tamamlanmasının ardından ilk prototiplerin geliştirilmesine başlanacak ve proje deposu (repository) kamuya açılarak geliştirme süreci düzenli olarak belgelenecektir.
+
+*(S.E.: Barbaror4)*
+
 ## STM32F746G-DISCO Zephyr RTOS MP3 Player
 
 ### Sorumlu Geliştirici
@@ -85,8 +89,13 @@ En önemli araştırma alanlarımızdan biri **JieLi AC6925** platformudur.
 
 Bu projenin amacı, yaygın olarak kullanılan ancak yeterince dokümante edilmemiş bu ses SoC'lerini daha iyi anlamak ve belgelendirmektir.
 
-**Proje Durumu:** Şu anda JieLi platformuna yönelik araştırmaları ve dokümantasyonu geliştirmeye odaklanıyorum. Projede ayrıntılı dokümantasyon, örnek projeler ve hızlı prototipleme ile test yapmayı kolaylaştıracak kaynaklar yer alacaktır. Özellikle bu alandaki katkılar her zaman memnuniyetle karşılanmaktadır; çünkü topluluk desteği bu az bilinen gömülü platformların anlaşılmasına ve korunmasına büyük katkı sağlamaktadır.
+**Proje Durumu:** Şu anda JieLi platformuna yönelik araştırmaları ve dokümantasyonu geliştirmeye odaklanıyorum. Projede ayrıntılı dokümantasyon, örnek projeler ve hızlı prototipleme ile test yapmayı kolaylaştıracak kaynaklar yer alacaktır. 
 
+Araştırmaların devamı için **BT201 JieLi AC6925** tabanlı bir modül temin edilmiştir. Bu modül üzerinde OLED entegrasyonu, özel çevre birimi geliştirmeleri ve çeşitli donanım/yazılım deneyleri gerçekleştirilecektir. Gerekli test ve geliştirme süreçleri tamamlandıktan sonra elde edilen çalışmalar, örnekler ve dokümantasyon kamuya açık şekilde paylaşılacaktır.
+
+Özellikle bu alandaki katkılar her zaman memnuniyetle karşılanmaktadır; çünkü topluluk desteği, az bilinen bu gömülü platformların anlaşılmasına, belgelenmesine ve korunmasına büyük katkı sağlamaktadır.
+
+*(S.E.: Barbaror4)*
 ## NationalChip / GuoXin Araştırmaları
 
 ### Sorumlu Geliştirici(ler)

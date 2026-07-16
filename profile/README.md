@@ -1,239 +1,152 @@
 ## OBM — OmfoBalkanMicroElectronics
 
+**OBM (OmfoBalkanMicroElectronics)**'e hoş geldiniz. Mikrodenetleyici tabanlı teknolojileri keşfetmeye, geliştirmeye ve belgelendirmeye odaklanan bir gömülü sistemler ve donanım araştırma organizasyonuyuz.
 
-Welcome to **OBM (OmfoBalkanMicroElectronics)**, an embedded systems and hardware research organization focused on exploring, developing, and documenting microcontroller-based technologies.
+## Hikayemiz
 
+OBM, Türkiye'den gömülü sistemlerle ilgilenen iki elektronik meraklısının **STM32** mikrodenetleyicileri üzerinde çalışmaya başlamasıyla ortaya çıkan basit bir fikirden doğdu.
 
-## Our Story
+İlk proje fikirlerimiz ve tasarımlarımız **OCM32** adı altında geliştirildi. Bu süreçte STM32 tabanlı projeler, özel geliştirme kartları ve Nucleo tarzı shield tasarımları üzerinde çalıştık. Zamanla bu çalışmaları, bilgi paylaşabileceğimiz, kendimizi geliştirebileceğimiz ve yaptığımız keşifleri belgeleyebileceğimiz gerçek bir organizasyona dönüştürmeye karar verdik.
 
+**OmfoBalkanMicroElectronics** ismi ise aslında bir şaka olarak ortaya çıktı. İsim, en sevdiğimiz Balkan müzik gruplarından biri olan **OMFO**'dan ilham alınarak oluşturuldu. Eğlence amaçlı başlayan bu isim, zamanla büyüyen gömülü sistemler yolculuğumuzun kimliği haline geldi.
 
-OBM started from a simple idea: two electronics enthusiasts from Türkiye working with **STM32** microcontrollers and experimenting with embedded systems.
+## Neler Yapıyoruz
 
+Çalışmalarımız şu alanlara odaklanmaktadır:
 
-Our first project ideas and designs were created under the name **OCM32**, where we explored STM32-based concepts, including custom development board and Nucleo-style shield designs. Over time, we decided to turn our experiments into a proper organization where we could share our work, improve our skills, and document our discoveries.
+- Gömülü sistem geliştirme
+- Mikrodenetleyici programlama
+- Firmware geliştirme ve modifikasyonu
+- Donanım araştırmaları ve tersine mühendislik
+- Dokümantasyonu bulunmayan platformların belgelenmesi
+- Geliştirme araçları ve deneysel donanımlar
 
+Başlıca üzerinde çalıştığımız platformlar:
 
-The name **OmfoBalkanMicroElectronics** was originally created as a joke, inspired by OMFO, a Balkan music project that is one of our favorite groups. What started as a fun name eventually became the identity of our growing embedded systems journey.
+- **STM32** (STM32F7 ve RTOS tabanlı projeler dahil)
+- **Microchip PIC** mikrodenetleyicileri
+- **JieLi (AC69xx serisi)** ses platformları
+- **NationalChip / GuoXin GX serisi**
+- Araştırmalarımız sırasında karşılaştığımız diğer gömülü platformlar
 
+## Güncel Ana Projeler
 
-## What We Do
-
-
-Our work focuses on:
-
-
-
-
-• Embedded systems development
-
-
-• Microcontroller programming
-
-
-• Firmware development and modification
-
-
-• Hardware research and reverse engineering
-
-
-• Documentation of undocumented platforms
-
-
-• Development tools and experimental hardware
-
-
-
-
-Our main platforms include:
-
-
-
-
-**STM32** (including STM32F7 and RTOS-based projects)
-
-
-**Microchip PIC** microcontrollers
-
-
-**JieLi (AC69xx series)** audio platforms
-
-
-**NationalChip / GuoXin GX series**
-
-
-Other embedded platforms encountered during research
-
-
-
-
-## Current Main Projects
-
-OBM will contain many repositories covering different experiments, research, and development efforts. Since it is not practical to list every project here, this section highlights some of our main and most active projects.
+OBM bünyesinde birçok farklı deneysel çalışma, araştırma ve geliştirme deposu (repository) bulunacaktır. Bunların tamamını burada listelemek pratik olmadığı için, bu bölümde yalnızca en önemli ve aktif projelerimiz yer almaktadır.
 
 ## MagicPIC
-### Maintainer(s)
-**Barbaror4**
+
+### Sorumlu Geliştirici(ler)
+
+**Barbaror4**  
 **MeteÖnelge**
 
-**MagicPIC** is our PIC-based development project focused on exploring the simplicity and capabilities of classic PIC microcontrollers.
+**MagicPIC**, klasik PIC mikrodenetleyicilerinin sadeliğini ve yeteneklerini keşfetmeye odaklanan PIC tabanlı geliştirme projemizdir.
 
+Proje, **PIC16F886** temel alınarak geliştirilmekte olup; özel geliştirme kartları, deneysel çalışmalar ve öğrenme kaynakları oluşturmayı amaçlamaktadır. Basit bir mikrodenetleyici platformu olarak başlayan MagicPIC'in zamanla daha büyük bir ekosisteme dönüşmesini hedefliyoruz.
 
-The project is based around the **PIC16F886** and aims to create custom boards, experiments, and learning resources. Starting from a simple microcontroller platform, MagicPIC may grow into a larger ecosystem over time.
-
-Project Status: MagicPIC is currently one of our main development focuses, as embedded systems are our primary area of interest and curiosity. We aim to expand the project through hardware development, software experiments, and documentation. Contributions, ideas, and feedback are always welcome.
+**Proje Durumu:** MagicPIC şu anda en önemli geliştirme odaklarımızdan biridir. Gömülü sistemler bizim için en büyük ilgi ve merak alanıdır. Donanım geliştirme, yazılım deneyleri ve kapsamlı dokümantasyon ile projeyi büyütmeyi hedefliyoruz. Katkılar, fikirler ve geri bildirimler her zaman memnuniyetle karşılanmaktadır.
 
 ## STM32F746G-DISCO Zephyr RTOS MP3 Player
 
-### Maintainer(s)
+### Sorumlu Geliştirici
 
 **Barbaror4**
 
+**STM32F746G-DISCO** geliştirme kartı üzerine inşa edilen gelişmiş bir gömülü ses oynatıcı projesidir.
 
-An advanced embedded audio project based on the **STM32F746G-DISCO** development board.
+Projenin amacı aşağıdaki özelliklere sahip gelişmiş bir MP3 oynatıcı geliştirmektir:
 
-The goal of this project is to create a feature-rich MP3 player featuring:
-
-- STM32F746 microcontroller
+- STM32F746 mikrodenetleyicisi
 - Zephyr RTOS
-- Custom audio handling
-- A modern graphical user interface
+- Özel ses işleme altyapısı
+- Modern grafiksel kullanıcı arayüzü
 
-The repository is currently private while the core architecture and software foundation are being refined.
+Temel mimari ve yazılım altyapısı geliştirilmeye devam ettiği için depo (repository) şu anda gizlidir.
 
-**Project Status:** This project is currently inactive. I have shifted my primary development efforts toward the **MagicPIC** platform and other embedded systems research. Although there are no active development plans at this time, the project remains open for future continuation if circumstances and interest align.
+**Proje Durumu:** Şu anda ana geliştirme odağımı **MagicPIC** platformuna ve diğer gömülü sistem araştırmalarına kaydırmış bulunuyorum. Bu nedenle proje aktif olarak geliştirilmemektedir. Ancak ileride şartlar ve ilgi doğrultusunda geliştirme sürecine yeniden başlanması planlanabilir.
 
+## JieLi AC6925 Araştırmaları ve Firmware Geliştirme
 
-## JieLi AC6925 Research & Firmware Development
-### Maintainer(s)
-
-**Barbaror4**
-
-One of our major research areas has been the **JieLi AC6925** platform.
-
-
-Work includes:
-
-
-
-
-- Developing custom peripheral code
-
-
-- Software I2C implementations
-
-
-- Driving displays such as SSD1306/SSD1315-based OLEDs
-
-
-- Working with 4x20 OLED/LCD interfaces
-
-
-- Firmware modification and analysis
-
-
-- Exploring boot modes and firmware loading methods
-
-
-- Creating custom hardware tools for development and testing
-
-
-
-
-The goal is to better understand and document these commonly used but poorly documented audio SoCs.
-
-Project Status: I am currently refining the research and documentation around the JieLi platform. This project will include detailed documentation, examples, and testing resources to make experimentation and prototyping easier. Contributions are always welcome, especially in this area, as community knowledge can greatly help in understanding and preserving these often overlooked embedded platforms.
-
-## NationalChip / GuoXin Research
-### Maintainer(s)
+### Sorumlu Geliştirici
 
 **Barbaror4**
+
+En önemli araştırma alanlarımızdan biri **JieLi AC6925** platformudur.
+
+Çalışmalarımız şunları kapsamaktadır:
+
+- Özel çevre birimi (peripheral) kodlarının geliştirilmesi
+- Yazılımsal I2C (Software I2C) uygulamaları
+- SSD1306/SSD1315 tabanlı OLED ekranların sürülmesi
+- 4x20 OLED/LCD arayüzleriyle çalışma
+- Firmware modifikasyonu ve analizi
+- Boot modlarının ve firmware yükleme yöntemlerinin araştırılması
+- Geliştirme ve test amaçlı özel donanım araçlarının oluşturulması
+
+Bu projenin amacı, yaygın olarak kullanılan ancak yeterince dokümante edilmemiş bu ses SoC'lerini daha iyi anlamak ve belgelendirmektir.
+
+**Proje Durumu:** Şu anda JieLi platformuna yönelik araştırmaları ve dokümantasyonu geliştirmeye odaklanıyorum. Projede ayrıntılı dokümantasyon, örnek projeler ve hızlı prototipleme ile test yapmayı kolaylaştıracak kaynaklar yer alacaktır. Özellikle bu alandaki katkılar her zaman memnuniyetle karşılanmaktadır; çünkü topluluk desteği bu az bilinen gömülü platformların anlaşılmasına ve korunmasına büyük katkı sağlamaktadır.
+
+## NationalChip / GuoXin Araştırmaları
+
+### Sorumlu Geliştirici(ler)
+
+**Barbaror4**  
 **MeteÖnelge**
 
-We also work with **NationalChip (GuoXin GX series)** platforms.
+Ayrıca **NationalChip (GuoXin GX serisi)** platformları üzerinde de çalışmalar yürütmekteyiz.
 
+Araştırma konularımız:
 
-Research includes:
+- UART haberleşme analizi
+- GXDownloader etkileşimi
+- Boot haberleşmesi araştırmaları
+- Firmware araştırmaları ve korunması
 
+Araştırmalarımız sonucunda GX platformlarıyla UART üzerinden başarılı haberleşme kurulmuş olup, firmware analizleri ve platform araştırmaları devam etmektedir.
 
-
-
-UART communication analysis
-
-
-GXDownloader interaction
-
-
-Boot communication research
-
-
-Firmware research and preservation
-
-
-
-
-Our current research has reached successful communication with GX platforms, including UART handshaking, with further firmware analysis ongoing.
-
-Project Status: We are actively researching NationalChip-based platforms. MeteÖnelge has access to a GX-based STB receiver currently under investigation, while Barbaror4 is researching various STB boards, including hardware based around the AT1511S, which was identified through reverse engineering as a rebranded NationalChip GX6101D platform. Contributions, documentation, and additional hardware information are always welcome, as community research helps preserve and understand these lesser-documented embedded systems.
+**Proje Durumu:** NationalChip tabanlı platformlar üzerinde aktif olarak araştırmalar yürütüyoruz. MeteÖnelge şu anda GX tabanlı olduğunu düşündüğümüz bir STB alıcısı üzerinde çalışmaktadır. Barbaror4 ise çeşitli STB kartlarını araştırmaktadır. Bunlardan biri olan **AT1511S**, yapılan tersine mühendislik çalışmaları sonucunda yeniden markalanmış bir **NationalChip GX6101D** platformu olarak tanımlanmıştır. Dokümantasyon, donanım bilgileri ve katkılar her zaman memnuniyetle karşılanmaktadır. Topluluk araştırmaları, yeterince belgelenmemiş bu gömülü sistemlerin anlaşılmasına ve korunmasına büyük katkı sağlamaktadır.
 
 ## HackPROM
 
-### Maintainer
+### Sorumlu Geliştirici
 
 **MeteÖnelge**
 
-**HackPROM** is a hardware research project focused on working with programmable memory devices such as **Flash** and **EEPROM** chips.
+**HackPROM**, **Flash** ve **EEPROM** gibi programlanabilir bellek yongaları üzerinde çalışan bir donanım araştırma projesidir.
 
-The project aims to provide tools, experiments, and documentation for:
+Proje kapsamında:
 
-- Dumping firmware and data from Flash/EEPROM devices
-- Analyzing and modifying extracted firmware
-- Reverse engineering embedded systems
-- Creating custom payloads and modified firmware images
-- Exploring memory devices used in consumer electronics and embedded hardware
+- Flash ve EEPROM yongalarından firmware ve veri okunması
+- Çıkarılan firmware'lerin analiz edilmesi ve değiştirilmesi
+- Gömülü sistemlerin tersine mühendisliği
+- Özel payload'ların ve değiştirilmiş firmware dosyalarının oluşturulması
+- Tüketici elektroniğinde ve gömülü sistemlerde kullanılan bellek yongalarının araştırılması
 
-The project uses tools such as the **CH341A programmer** for reading, writing, and experimenting with various memory chips.
+Projede, çeşitli bellek yongalarını okumak, yazmak ve araştırmak amacıyla **CH341A programlayıcısı** kullanılmaktadır.
 
-**Project Status:** HackPROM focuses on improving the understanding of firmware storage and embedded hardware by making it easier to extract, analyze, and modify data from memory devices. Documentation, experiments, and research results will be added as development progresses.
+**Proje Durumu:** HackPROM, firmware depolama yapısını ve gömülü donanımları daha iyi anlamaya odaklanmaktadır. Amaç; bellek yongalarındaki verilerin okunmasını, analiz edilmesini ve değiştirilmesini kolaylaştırmaktır. Dokümantasyon, deneysel çalışmalar ve araştırma sonuçları geliştirme süreci boyunca paylaşılacaktır.
 
-Contributions, hardware findings, and research results are always welcome.
+Katkılar, donanım örnekleri ve araştırma sonuçları her zaman memnuniyetle karşılanmaktadır.
 
-## Reverse Engineering & Hardware Research
+## Tersine Mühendislik ve Donanım Araştırmaları
 
+OBM'nin önemli çalışma alanlarından biri, yeterli dokümantasyona sahip olmayan donanımları anlamaktır.
 
-A major part of OBM is understanding hardware that lacks proper documentation.
+Bunlara örnek olarak:
 
+- Bilinmeyen yongaların ve kartların tersine mühendisliği
+- Pin analizleri ile dokümantasyonu bulunmayan entegre devrelerin tanımlanması
+- Tüketici elektroniği donanımlarının araştırılması
 
-Examples include:
+Bunun örneklerinden biri **AT1511S** yongasıdır. Yapılan tersine mühendislik çalışmaları sonucunda bu yonganın aslında **NationalChip GX6101D** platformuna dayandığı ortaya çıkarılmıştır.
 
+## Hedefimiz
 
+OBM'nin amacı öğrenmek, deney yapmak ve bilgiyi paylaşmaktır.
 
+Yeterince belgelenmemiş donanımların, unutulmuş platformların ve gizemini koruyan yongaların; merak, araştırma ve iş birliği sayesinde anlaşılabileceğine inanıyoruz.
 
-Reverse engineering unknown chips and boards
+Basit PIC deneylerinden gelişmiş gömülü sistem tersine mühendisliğine kadar uzanan yolculuğumuzda hedefimiz, elektronik dünyasını keşfetmeye devam etmektir.
 
-
-Identifying undocumented ICs through pin analysis
-
-
-Hardware investigation of consumer electronics
-
-
-
-
-One example was the investigation of the **AT1511S**, where reverse engineering revealed it was actually based around a **NationalChip GX6101D** platform.
-
-
-## Our Goal
-
-
-OBM exists to learn, experiment, and share knowledge.
-
-
-We believe that even obscure hardware, forgotten platforms, and undocumented chips can be understood through curiosity, testing, and collaboration.
-
-
-From simple PIC experiments to advanced embedded reverse engineering, our goal is to keep exploring the world of electronics.
-
-
-Welcome to OBM.
-
-
+**OBM'ye hoş geldiniz.**

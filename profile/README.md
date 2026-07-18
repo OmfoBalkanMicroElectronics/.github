@@ -38,7 +38,7 @@ OBM bünyesinde birçok farklı deneysel çalışma, araştırma ve geliştirme 
 ### Sorumlu Geliştirici(ler)
 
 **Barbaror4**  
-**MeteÖnelge**
+
 
 **MagicPIC**, klasik PIC mikrodenetleyicilerinin sadeliğini ve yeteneklerini keşfetmeye odaklanan PIC tabanlı geliştirme projemizdir.
 
@@ -46,7 +46,7 @@ Proje, **PIC16F886** temel alınarak geliştirilmekte olup; özel geliştirme ka
 
 **Proje Durumu:** MagicPIC şu anda en önemli geliştirme odaklarımızdan biridir. Gömülü sistemler bizim için en büyük ilgi ve merak alanıdır. Donanım geliştirme, yazılım deneyleri ve kapsamlı dokümantasyon ile projeyi büyütmeyi hedefliyoruz. Katkılar, fikirler ve geri bildirimler her zaman memnuniyetle karşılanmaktadır.
 
-**Projenin Şu Anki Durumu:** MagicPIC projesi aktif geliştirme sürecindedir. **MeteÖnelge**'nin proje ve **HackPROM** projesi için temin ettiği bileşenler kendisine ulaşmıştır. **Barbaror4** ise gerekli bileşenlerin siparişini tamamlamış olup kargo sürecini beklemektedir. Donanımların tamamlanmasının ardından ilk prototiplerin geliştirilmesine başlanacak ve proje deposu (repository) kamuya açılarak geliştirme süreci düzenli olarak belgelenecektir.
+**Projenin Şu Anki Durumu:** MagicPIC projesi aktif geliştirme sürecindedir. **MeteÖnelge**'nin proje ve **HackPROM** projesi için temin ettiği bileşenler kendisine ulaşmıştır.(PIC16F886'sını bazı donanımsal sıkıntılardan çalıştırmamış durumundadır.)**Barbaror4** ise gerekli bileşenlerin siparişini tamamlamış olup kargo sürecini beklemektedir. Donanımların tamamlanmasının ardından ilk prototiplerin geliştirilmesine başlanacak ve proje deposu (repository) kamuya açılarak geliştirme süreci düzenli olarak belgelenecektir.
 
 *(S.E.: Barbaror4)*
 

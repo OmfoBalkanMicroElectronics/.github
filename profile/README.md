@@ -50,6 +50,24 @@ Proje, **PIC16F886** temel alınarak geliştirilmekte olup; özel geliştirme ka
 
 *(S.E.: Barbaror4)*
 
+## OBM32 Disqeci
+
+### Maintainer
+
+**MeteÖnelge**
+
+**OBM32 Disqeci**, uydu sinyal seviyelerinin izlenmesi ve temel frekans yönetimi için geliştirilen taşınabilir bir gömülü sistem projesidir.
+
+Proje, **Arduino Nano (ATmega328P)** tabanlı olup aşağıdaki özellikleri hedeflemektedir:
+
+- Gerçek zamanlı sinyal izleme
+- 128×64 SSD1306 OLED kullanıcı arayüzü
+- EEPROM tabanlı kanal hafızası
+- Buton kontrollü menü sistemi
+- Seri port üzerinden kanal ve frekans yönetimi
+
+**Proje Durumu:** OBM32 Disqeci aktif geliştirme sürecindedir. Yeni özellikler, kullanıcı arayüzü geliştirmeleri ve sinyal yönetimi fonksiyonları üzerinde çalışmalar devam etmektedir.
+
 ## STM32F746G-DISCO Zephyr RTOS MP3 Player
 
 ### Sorumlu Geliştirici

@@ -46,7 +46,7 @@ Proje, **PIC16F886** temel alınarak geliştirilmekte olup; özel geliştirme ka
 
 **Proje Durumu:** MagicPIC şu anda en önemli geliştirme odaklarımızdan biridir. Gömülü sistemler bizim için en büyük ilgi ve merak alanıdır. Donanım geliştirme, yazılım deneyleri ve kapsamlı dokümantasyon ile projeyi büyütmeyi hedefliyoruz. Katkılar, fikirler ve geri bildirimler her zaman memnuniyetle karşılanmaktadır.
 
-**Projenin Şu Anki Durumu:** MagicPIC projesi aktif geliştirme sürecindedir. **MeteÖnelge**'nin proje ve **HackPROM** projesi için temin ettiği bileşenler kendisine ulaşmıştır.(PIC16F886'sını bazı donanımsal sıkıntılardan çalıştırmamış durumundadır ve bu sebepten dolayı şuan MagicPIC projesine katkıda bulunamamaktadır.)**Barbaror4** ise gerekli bileşenlerin kargoya verilip kargonun gelmesini beklemektedir. Donanımların tamamlanmasının ardından ilk prototiplerin geliştirilmesine başlanacak ve proje deposu (repository) kamuya açılarak geliştirme süreci düzenli olarak belgelenecektir.
+**Projenin Şu Anki Durumu:** MagicPIC projesi aktif geliştirme sürecindedir. **MeteÖnelge**'nin proje ve **HackPROM** projesi için temin ettiği bileşenler kendisine ulaşmıştır.(PIC16F886'sını bazı donanımsal sıkıntılardan çalıştırmamış durumundadır ve bu sebepten dolayı şuan MagicPIC projesine katkıda bulunamamaktadır.)**Barbaror4** ise gerekli bileşenlerinin eline ulaşmış olup,prototip PIC16F886 Kartı yapmıştır,MagicPIC projesi aktif olarak maintainlenmektedir.
 
 *(S.E.: Barbaror4)*
 
